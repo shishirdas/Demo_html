@@ -1,0 +1,173 @@
+header{
+	background: red;
+}
+body, h1, ul, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Lora', serif;
+	font-weight: 400;
+}
+a{
+	text-decoration:none;
+}
+p{
+	font-size: 14px;
+}
+.container {
+	width:90%;
+	margin: 0 auto;
+}
+.header-left {
+	width: 30%;
+	float:left;
+}
+.header-left  img{
+	width:60%;
+	margin-top: 15px;
+}
+.header-right{
+	width: 70%;
+	overflow:hidden;
+}
+.header-right nav ul{
+	text-align: right;
+}
+.header-right nav ul li {
+	display: inline;
+}
+.header-right nav ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+	color: #ffffff;
+	font-family: 'Lora', serif;
+	font-weight: 700;
+}
+.header-right nav ul li:hover a{
+	color: black;
+}
+
+.welcome {
+	margin: 20px 0;
+}
+.welcome img {
+	width: 100%;
+}
+.gallery-item {
+	width: 33.33%;
+	float:left;
+	overflow:hidden;
+	text-align: center;
+}
+.gallery-item img {
+	border: 3px solid gray;
+	width: 90%;
+	
+} 
+.about{
+	margin: 10px 0;
+	text-align: left;
+	margin-right: 10px;
+}
+.about h1 {
+	font-family: 'Lora', serif;
+	font-weight: 700;
+	font-size: 17px;
+}
+.readmore {
+	text-align: center;
+	color: #ffffff;
+	background: rgb(76,175,80);
+	padding: 10px 20px;
+	transition: 2s;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+.extra {
+	color: rgb(255,181,0);
+}
+.readmore:hover{
+	color: black;
+	background: rgba(76,175,80, 0.5);
+	
+	
+}
+.video-left {
+	width: 50%;
+	float: left;
+	
+}
+.video-right {
+	width: 50%;
+	overflow:hidden;
+}
+.gallery {
+	overflow:hidden;
+}
+.video {
+	padding: 50px 0;
+}
+.video-right img {
+	border: 3px solid gray;
+	width: 100%;
+}
+footer, footer a {
+	background: rgb(51,51,51);
+	color: rgb(255,138,32);
+}
+
+footer h1 {
+	color: #ffffff;
+}
+.footer-top {
+	padding: 30px 0;
+	overflow:hidden;
+}
+.footer-weidegt {
+	width: 25%;
+	float:left;
+	overflow:hidden;
+}
+.footer-left {
+	width: 50%;
+	float:left;
+}
+.footer-right {
+	width: 50%;
+	overflow:hidden;
+}
+.footer-bottom {
+	overflow:hidden; 
+	padding: 10px 0;
+}
+.footer-weidegt h1 {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+
+.bodyclass {
+	background: url(image/bg.jpg);
+}
+.bodybackground {
+	background: rgba(236, 240, 241,0.7);
+}
+
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
